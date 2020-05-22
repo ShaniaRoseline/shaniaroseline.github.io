@@ -1,0 +1,314 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+.item {
+	display:flex;
+	flex-wrap:wrap;
+	text-align:center;
+}
+
+.item img {
+	width:100%;
+
+}
+
+.w1of1 {
+	width:100%;
+
+}
+
+.w1of2 {
+	width:50%;
+}
+
+.w2of2 {
+	width:50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*start title*/
+.title {
+	background-color:black;
+	color:white;
+	justify-content:center;
+	font-size:100px;
+	font-family:futura;
+	text-align:center;
+}
+/*end title*/
+
+/*start scientist*/
+.scientist {
+	background-image: url("background.png");
+}
+
+.scientist img{
+	padding:150px;
+}
+
+.overlay1 {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	opacity:0;
+	transition: 0.5s ease;
+	background-color:black; 
+}
+
+.scientist:hover .overlay1 {
+	opacity:1;
+}
+
+.text1 {
+	color:white;
+	font-size:20px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	transform:translate(-50%, -50%);
+	text-align:center;
+}
+/*end scientist*/
+
+/*start research*/
+.research {
+	background-image: url(background.png);
+}
+
+.research img{
+	padding:150px;
+}
+
+.overlay2 {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	opacity:0;
+	transition: 0.5s ease;
+	background-color:black; 
+}
+
+.research:hover .overlay2 {
+	opacity:1;
+}
+
+.text2 {
+	color:white;
+	font-size:20px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	transform:translate(-50%, -50%);
+	text-align:center;
+}
+/*end reseearch*/
+
+/*start digital pill*/
+
+/*end digital pill*/
+
+/*start sick*/
+.sick {
+	background-image: url("background.png");
+}
+
+.sick img{
+	padding:150px;
+}
+
+.overlay4 {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	opacity:0;
+	transition: 0.5s ease;
+	background-color:black; 
+}
+
+.sick:hover .overlay4 {
+	opacity:1;
+}
+
+.text4 {
+	color:white;
+	font-size:20px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	transform:translate(-50%, -50%);
+	text-align:center;
+}
+/*end sick*/
+
+
+/*start hospital*/
+.hospital {
+	background-image: url("background.png");
+}
+
+.hospital img{
+	padding:150px;
+}
+
+.overlay5 {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	opacity:0;
+	transition: 0.5s ease;
+	background-color:black; 
+}
+
+.hospital:hover .overlay5 {
+	opacity:1;
+}
+
+.text5 {
+	color:white;
+	font-size:20px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	transform:translate(-50%, -50%);
+	text-align:center;
+}
+/*end hospital*/
+
+
+/*start body*/
+.body {
+	background-image: url("background.png");
+}
+
+.body img{
+	padding:150px;
+}
+
+.overlay6 {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	opacity:0;
+	transition: 0.5s ease;
+	background-color:black; 
+}
+
+.body:hover .overlay6 {
+	opacity:1;
+}
+
+.text6 {
+	color:white;
+	font-size:20px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	transform:translate(-50%, -50%);
+	text-align:center;
+}
+/*end body*/
+
+
+/*start monitor*/
+.monitor {
+	background-image: url("background.png");
+}
+
+.monitor img{
+	padding:150px;
+}
+
+.overlay7 {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	opacity:0;
+	transition: 0.5s ease;
+	background-color:black; 
+}
+
+.monitor:hover .overlay7 {
+	opacity:1;
+}
+
+.text7 {
+	color:white;
+	font-size:20px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	transform:translate(-50%, -50%);
+	text-align:center;
+}
+/*end monitor*/
+
+
+/*start credit*/
+.credit {
+	background-color:black;
+	color:white;
+	text-align:center;
+	font-size:25px;
+	font-family:futura;
+	text-align:center;
+}
+/*end credit*/
+
+
+
+
+

@@ -1,0 +1,52 @@
+body {
+	background-color:lightpink;
+	font-family: Futura,sans-serif;
+	font-size: 32px;
+}
+
+.background 
+
+a {
+	color:black;
+}
+
+
+.BT21 {
+	width:400px;
+	margin-top:100px;
+	margin-left:500px;
+}
+
+.BT21 img {
+	width:100%;
+	display:block;
+	
+}
+
+.links {
+	position:fixed;
+	top:50px;
+	left:50px;
+}
+
+.links a {
+	text-decoration:none;
+	color:black;
+	text-shadow:10px 0px 20px magenta;
+	display:block;
+}
+
+.links a:hover {
+	color:white;
+}
+
+.name {
+	font-size:100px;
+	text-align:center;
+	text-shadow:0px 0px 40px magenta;
+}
+
+.cc {
+	font-family:robota;
+	font-size:20px;
+	text-align:center;
