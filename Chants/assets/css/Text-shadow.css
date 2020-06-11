@@ -1,0 +1,70 @@
+body {
+	background-color :lightblue;
+	font-family:futura;
+}
+
+.background {
+	text-align:center;
+	text-shadow: 10px 10px 20px white;
+}
+
+.background.one {
+	text-shadow: 0px 0px 50px white;
+}
+
+.background.two {
+	text-shadow: 0px 0px 80px white;
+}
+
+.background.three {
+	text-shadow: 0px 0px 200px cyan;
+}
+
+.background.four {
+	
+}
+
+.middle {
+
+}
+
+.middle.one {
+	color:white;
+}
+
+.middle.two {
+	color:azure;
+}
+
+.middle.three {
+	color:turquoise;
+}
+
+.middle.four {
+	color:cyan;
+}
+
+.text {
+
+}
+
+.text.one {
+	font-size:30px;
+}
+
+.text.two {
+	font-size:60px;
+}
+
+.text.three {
+	font-size:100px;
+}
+
+
+.text.four {
+	font-size:200px;
+	line-height:180px;
+}
+
+
+

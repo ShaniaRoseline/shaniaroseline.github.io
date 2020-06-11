@@ -1,0 +1,78 @@
+body {
+	background-color :black;
+	font-family:futura;
+}
+
+.background {
+	text-align:center;
+}
+
+.background.one {
+	opacity:0.9;
+	display:block;
+	text-shadow:0px 0px 80px white;
+}
+
+.background.two {
+	display:none;
+}
+
+.background.three {
+	display:block;
+}
+
+.background.four {
+	display:none;
+}
+
+.middle {
+
+}
+
+.middle.one {
+	color:white;
+	letter-spacing: 10px
+	line-height:10vw;
+	transform:skewX(2.5deg);
+}
+
+.middle.two {
+	color:azure;
+	line-height:9vw;
+	transform:skewY(2.5deg);
+}
+
+.middle.three {
+	color:turquoise;
+	line-height:10vw;
+	transform:rotate(90deg);
+}
+
+.middle.four {
+	color:cyan;
+	line-height:10vw;
+}
+
+.text {
+
+}
+
+.text.one {
+	font-size:30px;
+}
+
+.text.two {
+	font-size:300px;
+}
+
+.text.three {
+	font-size:100px;
+}
+
+
+.text.four {
+	font-size:200px;
+}
+
+
+
