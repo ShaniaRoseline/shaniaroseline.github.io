@@ -11,7 +11,7 @@ a {
 	/*Background Image*/
 	background: url(bg.gif);
 	/*Full-screen*/
-	height:100%;
+	height:100vh;
 	/*Center the background image*/
 	background-position:center;
 	/*Scale and zoom in the image*/
@@ -21,6 +21,8 @@ a {
 	position:relative;
 	/*Add a font*/
 	font-family:futura;
+	max-height:100vh;
+	overflow:scroll;
 }
 
 
@@ -35,6 +37,7 @@ a {
 	color:white;
 	padding:20px;
 	text-align:center; 
+	cursor:pointer;
 }
 
 .toggle {
