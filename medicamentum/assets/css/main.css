@@ -70,6 +70,10 @@ a {
 	padding:150px;
 }
 
+.scientists {
+	position:relative;
+}
+
 .overlay1 {
 	position:absolute;
 	top:0;
@@ -82,7 +86,7 @@ a {
 	background-color:black; 
 }
 
-.scientist:hover .overlay1 {
+.scientist .scientists:hover .overlay1 {
 	opacity:1;
 }
 
@@ -108,6 +112,10 @@ a {
 	padding:150px;
 }
 
+.thumbnail {
+	position:relative;
+}
+
 .overlay2 {
 	position:absolute;
 	top:0;
@@ -120,7 +128,7 @@ a {
 	background-color:black; 
 }
 
-.research:hover .overlay2 {
+.research .thumbnail:hover .overlay2 {
 	opacity:1;
 }
 
@@ -162,7 +170,11 @@ a {
 	background-color:black; 
 }
 
-.sick:hover .overlay4 {
+.sicks {
+	position:relative;
+}
+
+.sick .sicks:hover .overlay4 {
 	opacity:1;
 }
 
@@ -189,6 +201,10 @@ a {
 	padding:150px;
 }
 
+.hospitals {
+	position:relative;
+}
+
 .overlay5 {
 	position:absolute;
 	top:0;
@@ -201,7 +217,7 @@ a {
 	background-color:black; 
 }
 
-.hospital:hover .overlay5 {
+.hospital .hospitals:hover .overlay5 {
 	opacity:1;
 }
 
@@ -228,6 +244,10 @@ a {
 	padding:150px;
 }
 
+.bodys {
+	position:relative;
+}
+
 .overlay6 {
 	position:absolute;
 	top:0;
@@ -240,7 +260,7 @@ a {
 	background-color:black; 
 }
 
-.body:hover .overlay6 {
+.body .bodys:hover .overlay6 {
 	opacity:1;
 }
 
@@ -267,6 +287,10 @@ a {
 	padding:150px;
 }
 
+.monitors {
+	position:relative;
+}
+
 .overlay7 {
 	position:absolute;
 	top:0;
@@ -279,7 +303,7 @@ a {
 	background-color:black; 
 }
 
-.monitor:hover .overlay7 {
+.monitor .monitors:hover .overlay7 {
 	opacity:1;
 }
 

@@ -1,0 +1,46 @@
+ body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+.bgimg {
+	/*Background Image*/
+	background: url(bg.gif);
+	/*Full-screen*/
+	height:100%;
+	/*Center the background image*/
+	background-position:center;
+	/*Scale and zoom in the image*/
+	background-size:cover;
+	/*Add position: relative to enable absolutely positioned
+	elements inside the image (place text)*/
+	position:relative;
+	/*Add a font*/
+	font-family:futura;
+}
+
+
+.title {
+	font-size:12vw;
+	color:white;
+	text-transform: uppercase;
+	text-align:center;
+}
+
+.header {
+	color:white;
+	padding:20px;
+	text-align:center; 
+}
+
+.toggle {
+	padding:20px;
+	color:white;
+	display:none;
+	text-align:center; 
+}
+
