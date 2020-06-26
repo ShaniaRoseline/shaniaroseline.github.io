@@ -46,10 +46,6 @@ a {
 
 
 
-
-
-
-
 /*start title*/
 .title {
 	background-color:black;
@@ -63,11 +59,12 @@ a {
 
 /*start scientist*/
 .scientist {
-	background-image: url("background.png");
+	background-image: url("bg.png");
 }
 
 .scientist img{
 	padding:150px;
+	width:100%;
 }
 
 .scientists {
@@ -105,7 +102,7 @@ a {
 
 /*start research*/
 .research {
-	background-image: url(background.png);
+	background-image: url(bg.png);
 }
 
 .research img{
@@ -146,12 +143,50 @@ a {
 /*end reseearch*/
 
 /*start digital pill*/
+.sick {
+	background-image: url("bg.png");
+}
 
+.sick img{
+	padding:150px;
+}
+
+.overlay3 {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	opacity:0;
+	transition: 0.5s ease;
+	background-color:black; 
+}
+
+.sicks {
+	position:relative;
+}
+
+.sick .sicks:hover .overlay3 {
+	opacity:1;
+}
+
+.text3 {
+	color:white;
+	font-size:20px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	transform:translate(-50%, -50%);
+	text-align:center;
+}
 /*end digital pill*/
 
 /*start sick*/
 .sick {
-	background-image: url("background.png");
+	background-image: url("bg.png");
 }
 
 .sick img{
@@ -194,7 +229,7 @@ a {
 
 /*start hospital*/
 .hospital {
-	background-image: url("background.png");
+	background-image: url("bg.png");
 }
 
 .hospital img{
@@ -237,7 +272,7 @@ a {
 
 /*start body*/
 .body {
-	background-image: url("background.png");
+	background-image: url("bg.png");
 }
 
 .body img{
@@ -280,7 +315,7 @@ a {
 
 /*start monitor*/
 .monitor {
-	background-image: url("background.png");
+	background-image: url("bg.png");
 }
 
 .monitor img{
