@@ -1,6 +1,8 @@
 body {
-	font-family: Helvetica,Arial,sans-serif;
+	font-family: 'futura';
 	font-size: 32px;
+	background:#000;
+	height:100vh;
 }
 
 a {
@@ -61,24 +63,103 @@ html {
 /*up button end*/
 
 
+/*glowing title start*/
 
-
-
-
-
-
-
-
-/*start title*/
-.title {
-	background-color:black;
-	color:white;
-	justify-content:center;
-	font-size:100px;
-	font-family:futura;
+.header {
+	letter-spacing:20px;
 	text-align:center;
+	padding-left:160px;
 }
-/*end title*/
+
+h1 {
+	margin:0;
+	padding:0;
+	color:#111;
+	font-size:4em;
+}
+
+h1 span {
+	display:table-cell;
+	margin:0;
+	padding:0;
+	animation:animate 3s linear infinite;
+}
+
+h1 span:nth-child(1) {
+	animation-delay:0s;
+}
+
+h1 span:nth-child(2) {
+	animation-delay:0.25s;
+}
+
+h1 span:nth-child(3) {
+	animation-delay:0.5s;
+}
+
+h1 span:nth-child(4) {
+	animation-delay:0.75s;
+}
+
+h1 span:nth-child(5) {
+	animation-delay:1s;
+}
+
+h1 span:nth-child(6) {
+	animation-delay:1.25s;
+}
+
+h1 span:nth-child(7) {
+	animation-delay:1.5s;
+}
+
+h1 span:nth-child(8) {
+	animation-delay:1.75s;
+}
+
+h1 span:nth-child(9) {
+	animation-delay:2s;
+}
+
+h1 span:nth-child(10) {
+	animation-delay:2.25s;
+}
+
+h1 span:nth-child(11) {
+	animation-delay:2.5s;
+}
+
+h1 span:nth-child(12) {
+	animation-delay:2.75s;
+}
+
+@keyframes animate {
+	0%, 100%
+	{
+		color:#000000;
+		filter:blur(1px);
+		text-shadow:0 0 10px #C0C0C0,
+				   0 0 20px #C0C0C0,
+				   0 0 40px #C0C0C0,
+				   0 0 80px #C0C0C0,
+				   0 0 120px #C0C0C0,
+				   0 0 200px #C0C0C0,
+				   0 0 300px #C0C0C0,
+				   0 0 400px #C0C0C0,
+				   0 0 500px #C0C0C0,
+				   0 0 600px #C0C0C0,
+				   0 0 700px #C0C0C0,
+				   0 0 800px #C0C0C0;
+	}
+	5%, 95%
+	{
+		color:#FFFFFF;
+		filter:blur(0px);
+		text-shadow: none;
+	}
+} 
+/*glowing title end*/
+
 
 /*start scientist*/
 .scientist {
@@ -104,6 +185,7 @@ html {
 	opacity:0;
 	transition: 0.5s ease;
 	background-color:black; 
+	cursor:pointer;
 }
 
 .scientist .scientists:hover .overlay1 {
@@ -145,7 +227,8 @@ html {
 	height:100%;
 	opacity:0;
 	transition: 0.5s ease;
-	background-color:black; 
+	background-color:black;
+	cursor:pointer; 
 }
 
 .research .thumbnail:hover .overlay2 {
@@ -184,6 +267,7 @@ html {
 	opacity:0;
 	transition: 0.5s ease;
 	background-color:black; 
+	cursor:pointer;
 }
 
 .sicks {
@@ -225,7 +309,8 @@ html {
 	height:100%;
 	opacity:0;
 	transition: 0.5s ease;
-	background-color:black; 
+	background-color:black;
+	cursor:pointer; 
 }
 
 .sicks {
@@ -272,7 +357,8 @@ html {
 	height:100%;
 	opacity:0;
 	transition: 0.5s ease;
-	background-color:black; 
+	background-color:black;
+	cursor:pointer; 
 }
 
 .hospital .hospitals:hover .overlay5 {
@@ -315,7 +401,8 @@ html {
 	height:100%;
 	opacity:0;
 	transition: 0.5s ease;
-	background-color:black; 
+	background-color:black;
+	cursor:pointer; 
 }
 
 .body .bodys:hover .overlay6 {
@@ -359,6 +446,7 @@ html {
 	opacity:0;
 	transition: 0.5s ease;
 	background-color:black; 
+	cursor:pointer;
 }
 
 .monitor .monitors:hover .overlay7 {
